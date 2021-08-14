@@ -1,0 +1,578 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-decoration-color: black;
+    }
+body {
+    background-image: linear-gradient(rgba(226, 224, 224, 0.9), rgba(226, 224, 224, 0.7)), url("../images/irisfull_500w.jpg");
+    background-blend-mode: lighten;
+}    
+body {
+    background-color: rgba(107, 211, 130, 0.7);
+}
+
+.wrapper {
+    width: 80%;
+	margin: 0 auto;
+}
+h1, h2, h3, h4 {
+    text-align: center;
+}
+h1 {
+    color: forestgreen;
+    font-weight: bolder;
+}
+h2 {
+    color: mediumseagreen;
+}
+h3 {
+    color:lightseagreen;
+    font-weight: bolder; 
+}
+h4 {
+    color: seagreen;
+    font-weight: bolder;
+}
+img, form, input, table, video, audio, iframe {
+    width: 80%;
+    max-width: 100%;
+}
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.topnavlist a {
+    color: rgb(115, 14, 209);
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    float: left;
+}
+.topnavlist a:link {
+    color:firebrick;
+    padding: 10px 15px;
+    text-align: center; 
+    font-weight: bolder;
+    float: left;
+}
+.topnavlist a:visited {
+    color: rgb(69, 129, 241);
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: bolder;
+    float: left;
+    
+}
+.topnavlist a:hover {
+    color: rgb(236, 110, 198);
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: bolder;
+    float: left;
+    
+}
+.topnavlist a:active {
+    color: rgb(238, 241, 16);
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: bolder;
+    float: left; 
+}
+.hoptop {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.fas {
+    font-size: 2em;
+}
+.frogt {
+    color: green;
+    float: left;
+}
+.frogbktop {
+    color: greenyellow;
+    padding: 10px;
+ }
+.image-1 {
+    text-align: center;
+}
+.image-1 {
+    display: block;
+    text-align: center;
+    }
+.caption-1 {
+    text-align: center;
+    font-size: small;
+}
+.clear {
+    clear: both;
+}
+.frogl {
+    float: left;
+    color:mediumseagreen;
+    padding: 10px;
+}
+.cola-1 {
+    float: left;
+    min-height: 50px;
+    width: 25%;
+    padding: 10px;
+    text-align: justify;
+}
+.cola-2 {
+    float: left;
+    min-height: 50px;
+    width: 25%;
+    padding: 10px;
+    text-align: justify;
+}
+.cola-3 {
+    float: left;
+    min-height: 50px;
+    width: 25%;
+    padding: 10px;
+    text-align: justify;
+}
+.cola-4 {
+    float: right;
+    min-height: 50px;
+    width: 25%;
+    padding: 10px;
+    text-align: justify;
+ }
+.frogr
+ {
+    float: right;
+    color:mediumseagreen;
+    padding: 10px;
+}
+.aside-1 {
+    background-color: rgba(218, 112, 214, 0.3);
+    float: left;
+    width: 30%;
+    min-height: 50px;
+    padding: 12px;
+    text-align: justify;
+    vertical-align: middle;
+    border-radius: 10%;
+}
+.soundattribut1 {
+    font-size: x-small;
+}
+.image-2 {
+    float: right;   
+}
+.caption-2 {
+    text-align: left;
+    font-size: small;
+} 
+.image-3 {
+    float: left;  
+    padding: 10px; 
+    margin: 0 auto;
+}
+.caption-3 {
+    text-align: left;
+    font-size: small;
+} 
+.colb-1 {
+    float: left;
+    min-height: 50px;
+    width: 25%;
+    padding: 10px;
+    text-align: justify;
+}
+.colb-2 {
+    float: left;
+    min-height: 50px;
+    width: 25%;
+    padding: 10px;
+    text-align: justify;
+}
+.colb-3 {
+    float: left;
+    min-height: 50px;
+    width: 25%;
+    padding: 10px;
+    text-align: justify;
+}
+.colb-4 {
+     float: right;
+     min-height: 50px;
+     width: 25%;
+     padding: 10px;
+     text-align: justify;
+}
+.image-4 {
+    display: block;
+    text-align: center;
+}
+.caption-4 {
+    text-align: center;
+    font-size: small;
+}
+.sourceslist {
+    list-style-type: none;
+}
+.links {
+    text-align: left;
+}
+.links a {
+    color: rgb(115, 14, 209);
+    text-align: left;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.links a:link {
+    color:firebrick;
+    padding: 10px 15px;
+    text-align: left; 
+    font-weight: bolder;
+}
+.links a:visited {
+    color: rgb(69, 129, 241);
+    padding: 10px 15px;
+    text-align: left;
+    font-weight: bolder;
+}
+.links a:hover {
+    color: rgb(236, 110, 198);
+    padding: 10px 15px;
+    text-align: left;
+    font-weight: bolder;
+}
+.links a:active {
+    color: rgb(238, 241, 16);
+    padding: 10px 15px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+/*Media Styles for Tablets1*/
+@media only screen and (max-width: 1024px) {
+    /* For tablet: */
+    body {
+        background-image:linear-gradient(rgba(226, 224, 224, 0.9), rgba(226, 224, 224, 0.7)), url("../images/irisdetail_500w.jpg");
+        font-size: 100%;
+    }
+    h1 {
+        color: orange;
+    }
+    h2 {
+        color: lightsalmon;
+    }
+    h3 {
+        color:orangered;
+        font-weight: bolder; 
+    }
+    h4 {
+        color:sandybrown;
+        font-weight: bolder;
+    }
+    .topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .topnavlist a {
+        color: rgb(115, 14, 209);
+        text-align: left;
+        padding: 10px 15px;
+        text-decoration: none;
+        float: none;
+    }
+    .topnavlist a:link {
+        color:firebrick;
+        text-align: left;
+        padding: 10px 15px;
+        font-weight: bolder;
+        float: none;
+    }
+    .topnavlist a:visited {
+        color: rgb(69, 129, 241);
+        text-align: left;
+        padding: 10px 15px;
+        font-weight: bolder;
+        float: none; 
+    }
+    .topnavlist a:hover {
+        color: rgb(236, 110, 198);
+        text-align: left;
+        padding: 10px 15px;
+        font-weight: bolder;
+        float: none;   
+    }
+    .topnavlist a:active {
+        color: rgb(238, 241, 16);
+        text-align: left;
+        padding: 10px 55px;
+        font-weight: bolder;
+        float: none; 
+    } 
+    [class*="cola-"] {
+        width: 25%;
+        text-align: justify;
+    }
+    [class*="aside-"] {
+        width: 50%;
+        float: none;
+        background-color: rgba(218, 154, 112, 0.3);
+        }
+    [class*="image-2"] {
+        float: none;
+    }    
+    [class*="fas"] {
+        font-size: 1em;
+    }
+    [class*="frogt"] {
+        color: lightsalmon;
+    }
+    [class*="frogl"] {
+        color: salmon;
+        padding: 10px;
+    }
+    [class*="frogr"] {
+        color: salmon;
+        padding: 10px;
+    }
+    [class*="frogbktop"] {
+        color: rosybrown;
+        padding: 10px;
+    }
+    [class*="topnavlist"] {
+        text-align: justify;
+    }
+    [class*="colb-"] {
+        width: 25%;
+        text-align: justify; 
+    }
+    [class*="links"] {
+        text-align: left;
+    }
+    .wrapper {
+        max-width: 1000px;
+   }
+  }
+ /* /*Media Styles for Tablets2*/
+@media only screen and (max-width: 999px) {
+    /* For tablet: */
+    body {
+        background-image:linear-gradient(rgba(226, 224, 224, 0.9), rgba(226, 224, 224, 0.7)), url("../images/irisdetail_500w.jpg");
+        font-size: 100%;
+    }
+    h1 {
+        color: orange;
+    }
+    h2 {
+        color: lightsalmon;
+    }
+    h3 {
+        color:orangered;
+        font-weight: bolder; 
+    }
+    h4 {
+        color:sandybrown;
+        font-weight: bolder;
+    }
+    .topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .topnavlist a {
+        color: rgb(115, 14, 209);
+        text-align: left;
+        padding: 10px 15px;
+        text-decoration: none;
+        float: none;
+    }
+    .topnavlist a:link {
+        color:firebrick;
+        text-align: left;
+        padding: 10px 15px;
+        font-weight: bolder;
+        float: none;
+    }
+    .topnavlist a:visited {
+        color: rgb(69, 129, 241);
+        text-align: left;
+        padding: 10px 15px;
+        font-weight: bolder;
+        float: none; 
+    }
+    .topnavlist a:hover {
+        color: rgb(236, 110, 198);
+        text-align: left;
+        padding: 10px 15px;
+        font-weight: bolder;
+        float: none;   
+    }
+    .topnavlist a:active {
+        color: rgb(238, 241, 16);
+        text-align: left;
+        padding: 10px 15px;
+        font-weight: bolder;
+        float: none; 
+    } 
+    [class*="cola-"] {
+        width: 25%;
+        text-align: justify;
+    }
+    [class*="aside-"] {
+        width: 50%;
+        float: none;
+        background-color: rgba(218, 154, 112, 0.3);
+        }
+    [class*="image-2"] {
+        float: none;
+    }    
+    [class*="fas"] {
+        font-size: 1em;
+    }
+    [class*="frogt"] {
+        color: lightsalmon;
+    }
+    [class*="frogl"] {
+        color: salmon;
+        padding: 10px;
+    }
+    [class*="frogr"] {
+        color: salmon;
+        padding: 10px;
+    }
+    [class*="frogbktop"] {
+        color: rosybrown;
+        padding: 10px;
+    }
+    [class*="topnavlist"] {
+        text-align: justify;
+    }
+    [class*="colb-"] {
+        width: 25%;
+        text-align: justify; 
+    }
+    [class*="links"] {
+        text-align: left;
+    }
+    .wrapper {
+        max-width: 800px;
+    }
+
+      
+/*Media Styles for Mobiles*/
+@media only screen and (max-width: 769px) {
+    /* For mobile phones: */
+    body {
+        background-image: none;
+        font-size: 105%;
+    }
+    img, form, input, table, video, audio, iframe {
+        width: 90%;
+        max-width: 100%;
+    }
+    h1 {
+        color:indigo;
+    }
+    h2 {
+        color: mediumorchid;
+    }
+    h3 {
+        color:rebeccapurple;
+        font-weight: bolder; 
+    }
+    h4 {
+       color:violet;
+       font-weight: bolder;
+    }
+    .topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .topnavlist a {
+        color: rgb(115, 14, 209);
+        text-align: left;
+        padding: 10px 15px;
+        text-decoration: none;
+        float: none;
+    }
+    .topnavlist a:link {
+        color:firebrick;
+        text-align: left;
+        padding: 10px 15px;
+        font-weight: bolder;
+        float: none;
+    }
+    .topnavlist a:visited {
+        color: rgb(69, 129, 241);
+        text-align: left;
+        padding: 10px 15px;
+        font-weight: bolder;
+        float: none; 
+    }
+    .topnavlist a:hover {
+        color: rgb(236, 110, 198);
+        text-align: left;
+        padding: 10px 15px;
+        font-weight: bolder;
+        float: none;   
+    }
+    .topnavlist a:active {
+        color: rgb(238, 241, 16);
+        text-align: left;
+        padding: 10px 15px;
+        font-weight: bolder;
+        float: none; 
+    } 
+    [class*="cola-"] {
+        width: 100%;
+        float: none;
+    }
+    [class*="aside-"] {
+        width:100%;
+        float: none;
+        background-color: rgba(112, 167, 218, 0.3);
+    }
+    [class*="fas"] {
+        font-size: 1em;
+    }
+    [class*="frogt"] {
+        color:mediumpurple;
+    }
+    [class*="frogl"] {
+        color: purple;
+    }
+    [class*="frogr"] {
+        color: purple;
+    }
+    [class*="frogbktop"] {
+        color: rebeccapurple;
+        padding: 10px;
+    }
+    [class*="colb-"] {
+        width: 100%;
+        float: none;
+    }
+    [class*="links"] {
+        text-align: left;
+    }
+    .wrapper {
+      max-width: 500px;
+    }
+  }
+}
+
